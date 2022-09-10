@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(146, 132, 160);
+    
+}
+header{
+    padding: 100px;
+    background-color: rgb(219, 199, 14);
+    
+    top: 0;
+
+}
+video{
+    max-width: 50%;
+}
+
+meter{
+    height: 20px;
+    width: 500px;
+}
+progress{
+    height:25px;
+    width: 75%;
+}
+table, td, th {
+border: 2px solid green;
+border-collapse: collapse;
+}
+table{
+    width: 70%;
+    margin: auto;
+
+}
+thead{
+    background-color: greenyellow;
+    color: black;
+}
+td{
+    padding-left: 10px;
+}
+section{
+    background-color: rgb(230, 223, 216);
+    line-height: 1.5;
+    color: black;
+    padding: 10%;
+}
+#title1{
+    background-color: yellowgreen;
+    color: rgb(34, 5, 104);
+    font-size: 60px;
+    padding: 10px;
+}
+.tech{
+    padding: 30px;
+    background-color: rgb(108, 175, 138);
+}
+main{
+    padding: 0px;
+    margin-top: 10px;
+    width: 100%;
+}
+html{
+    overflow-x: hidden;
+}
+.menu-list{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 25 px;
+}
+.menu-list li{
+    padding: 3px;
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+.menu-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.box{
+    position: absolute;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    
+    text-align: center;
+    line-height: 150px;
+    font-size: 90px;
+    color: white;
+    border: 10px solid white;
+    
+     
+}
+#box1{
+    background-color: green;
+    bottom: 0px;
+    left: 0px;
+}
+#box2{
+    background-color: yellow;
+    left: 0;
+    top: 0;
+
+}
+#box3{
+    background-color: red;
+    right:0;
+    top: 0px;
+   
+}
+#box4{
+    background-color: blueviolet;
+    right: 0;
+    bottom: 0;
+   
+}
+.webtech{
+    position: absolute;
+ 
+    height: 150px;
+    width: 150px;
+    
+    text-align: center;
+    line-height: 150px;
+  
+    color: white;
+    
+    left: 450px ;
+    top:  150px;
+}
+#HTML{
+
+    left: 380px;
+    background-color:rgb(219, 124, 15);
+    top: 100px;
+}
+#CSS{
+    left: 510px;
+    background-color: rgb(74, 74, 211);
+}
+#JS{
+    left: 640px;
+    background-color: rgb(228, 231, 20);
+    top: 200px;
+
+}
+.box-wrapper{
+    position: relative;
+    background-color: lightblue;
+    padding: 0;;
+    height: 400px;
+    width: 100%;
+}
+.active{
+border-bottom: 2px solid red;
+}
